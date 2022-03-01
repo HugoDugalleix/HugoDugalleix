@@ -1,0 +1,54 @@
+Last login: Thu Nov 25 20:37:20 on console
+dugalleix@AirdeDugalleix ~ % ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+dugalleix@AirdeDugalleix ~ % pwd
+/Users/dugalleix
+dugalleix@AirdeDugalleix ~ % cd ..
+dugalleix@AirdeDugalleix /Users % pwd
+/Users
+dugalleix@AirdeDugalleix /Users % cd ..
+dugalleix@AirdeDugalleix / % pwd
+/
+dugalleix@AirdeDugalleix / % cd
+dugalleix@AirdeDugalleix ~ % pwd
+/Users/dugalleix
+dugalleix@AirdeDugalleix ~ % cd ..
+dugalleix@AirdeDugalleix /Users % pwd
+/Users
+dugalleix@AirdeDugalleix /Users % ls/bin
+zsh: no such file or directory: ls/bin
+dugalleix@AirdeDugalleix /Users % ls
+Shared		dugalleix
+dugalleix@AirdeDugalleix /Users % cd ..
+dugalleix@AirdeDugalleix / % ls
+Applications	Volumes		etc		sbin
+Library		bin		home		tmp
+System		cores		opt		usr
+Users		dev		private		var
+dugalleix@AirdeDugalleix / % ls library
+Apple			Image Capture		Receipts
+Application Support	Input Methods		Ruby
+Audio			InstallerSandboxes	Sandbox
+Caches			Internet Plug-Ins	Screen Savers
+ColorPickers		Java			ScriptingAdditions
+ColorSync		KernelCollections	Scripts
+Components		Keyboard Layouts	Security
+Compositions		Keychains		Speech
+Contextual Menu Items	LaunchAgents		Spotlight
+CoreAnalytics		LaunchDaemons		StagedDriverExtensions
+CoreMediaIO		Logs			StagedExtensions
+DirectoryServices	Modem Scripts		StartupItems
+Documentation		OSAnalytics		SystemExtensions
+DriverExtensions	OpenDirectory		SystemMigration
+Extensions		Perl			SystemProfiler
+Filesystems		PreferencePanes		Updates
+Fonts			Preferences		User Pictures
+Frameworks		Printers		User Template
+GPUBundles		Python			Video
+Graphics		QuickLook		WebServer
+dugalleix@AirdeDugalleix / % cd audio
+cd: no such file or directory: audio
+dugalleix@AirdeDugalleix / % cd library
+dugalleix@AirdeDugalleix /library % cd audio
+dugalleix@AirdeDugalleix audio % 
